@@ -7,30 +7,34 @@
     <style>
         textarea{
             height: 10vh;
-            width: 90%;
+            width: 50%;
             display:block;
-            border: 2px solid rgb(224, 240, 1);
+            border: 2px solid rgb(0, 0, 0);
             border-radius: 8px;
             margin-bottom: 16px;
             padding: 0.5rem;
+            text-align: center;
         }
 
         #output{
-            border: 1px solid black;
+            border: 1px solid rgb(5, 5, 5);
             height: 10vh;
+            width: 50%;
             margin: 1rem;
+            margin-top: 2rem;
+            border-radius: 8px;
+            text-align: center;
             padding: 0.5rem;
-            width: auto;
         }
     </style>
-    
+    <link href="styles.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>go banana go</h1>
+    <h1 class="title">MINION TRANSLATOR</h1>
     <textarea id="txt-input" placeholder="Enter english text"></textarea>
-    <button id="btn-translate">Translate</button>
+    <button id="btn-translate" class="btn">Translate</button>
 
-    <div style="font-size: larger;"> Output will come here 👇</div>
+    <div style="font-size: larger; margin-top: 2rem;"> This is how Minions talk 👇</div>
 
     <div id="output"></div>
     <script src="app.js" text="text/javascript"></script>
